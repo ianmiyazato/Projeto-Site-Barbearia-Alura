@@ -1,9 +1,36 @@
-body {
-    
+header {
+    background: gray;
+    padding: 20px 0;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
 }
 
 #banner {
@@ -11,12 +38,17 @@ body {
 }
 
 .principal {
-    background: #CCCCCC;
+    background: rgba(189, 180, 180, 0.699);
     padding: 30px;
+    font-size: 20px;
 }
 
 h2 {
     text-align: center;
+}
+
+em strong {
+    color: red;
 }
 
 p {
@@ -27,30 +59,38 @@ p {
     font-size: 20px;
 }
 
-em strong {
-    color: red;
-}
-
-.itens {
-    font-style: italic;
+.beneficios-titulo {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 15px;
 }
 
 .beneficios {
-    background-color: white;
-    padding: 20px;
-}
-
-h3 {
     text-align: center;
+    width: 100%;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+
+.itens {
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 20px;
 }
 
 .imagembeneficios {
-    width: 50%;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    margin: 20px 0 0;
+    font-size: 13px;
 }
