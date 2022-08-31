@@ -1,2 +1,2 @@
-# Curso-HTML-CSS
- Exercícios e práticas realizados durante um curso de HTML e CSS
+# Projeto Site Barbearia Alura
+ Projeto prático de um site de uma barbearia criado durante um curso
